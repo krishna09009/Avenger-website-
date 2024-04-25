@@ -1,0 +1,217 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: black;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+
+header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 1.6%;
+    /* color: white; */
+    margin: 20px;
+    padding: 10px;
+    
+}
+header span{
+    z-index: 1;
+}
+header a{
+    margin: 5px;
+    z-index: 1;
+    object-fit: fill;
+    position: relative;
+    color: aliceblue;
+    }
+.home img {
+    position: relative;
+    top:-69px;
+    height: 100%;  
+    margin-left: 20px;
+}
+
+.homeContent{
+    z-index: 1;
+    color: white;
+    top:60%;
+    left: 40%;
+    text-align: center;
+    transform: translate(-35%, -5%);
+    font-size: xx-large;
+    font-size: xx-large;
+    font-style: italic;
+    position: absolute;
+    
+}
+
+button {
+    padding: 20px;
+    border-radius: 45px;
+    background: #000;
+    color: white;
+    
+}
+ button:hover{
+    
+    background: orange;
+}
+
+.home img{
+    width: 100%;
+    position: relative;
+  
+    height: 100%;
+    object-fit: cover;
+
+}
+.heading{
+    color :red;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.flex{
+    
+    /* position: absolute; */
+    background: #000;
+    
+    
+}
+.about{
+    margin: 22px; 
+    font-size: xx-large;
+    text-align: center;  
+ 
+}
+.row {
+    text-align: center;
+    display: flex;    
+    background: white;
+    height: 400px;
+    justify-content: center;
+    margin: 30px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 30px;
+    
+}
+.gallery .grid img{
+    width: 100%;
+    height: 100%; 
+    
+}
+.ourflex{
+    display: flex;
+    margin: 30px;
+   
+    
+}
+.imgteam img{
+    width: 400px;
+    height:  600px;
+}
+
+.content2{
+    background: #000;
+}
+.row2{
+
+    text-align: center;
+    display: flex;    
+  
+    /* height: 400px; */
+    justify-content: center;
+    margin: 30px;
+}
+.row2 img{
+    height: 500px;
+    width: 900px;
+}
+input{
+    background-color: #000;
+    width: 100%;
+    color: aliceblue;
+}
+textarea{
+    background-color: #000;
+    width: 100%;
+    color: aliceblue;
+    
+}
+.grid {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid:hover .card-content{
+    transform: translateY(0%);
+}
+
+.grid:hover img {
+    transform: translateY(-100%); 
+}
+
+.card{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    color: white;
+    text-align: center;
+}
+
+
+
+.gallery button:hover{
+    
+    background: orange;
+}
+
+
+
+
+
+
+
+
+
+.avenger{
+    color: aliceblue;
+    
+}
+.footer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer a{
+    color: whitesmoke;
+}
+.footer a:hover{
+    color: red;
+}

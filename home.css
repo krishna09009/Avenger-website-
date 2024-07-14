@@ -215,3 +215,46 @@ textarea{
 .footer a:hover{
     color: red;
 }
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    nav{
+
+        flex-direction: column;
+    }
+
+    nav > a{
+        font: 10px sans-serif;
+        
+    }
+    .homeContent > h2{
+        margin: 30px;
+
+ font-size: 23px;
+    }
+    .homeContent >p{
+        font-size: 15px;
+    }
+    .homeContent > button{
+        margin-top: 170px;
+    }
+
+    .row2 >img{
+        width: 100%;
+      
+    }
+
+    .gallery > h2{
+        font-size:10px;
+    }
+    .gallery >p{
+        font-size: 7px;
+    }
+    .card{
+        margin-top: -40px;
+        object-fit:fill;
+    }
+    .card > button{
+        padding: 0;
+    }
+
+ }

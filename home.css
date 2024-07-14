@@ -115,14 +115,14 @@ button {
     
 }
 .ourflex{
-    display: flex;
-    margin: 30px;
+  
+
    
     
 }
 .imgteam img{
-    width: 400px;
-    height:  600px;
+    width: 100%;
+    height:  900px;
 }
 
 .content2{
@@ -217,13 +217,12 @@ textarea{
 }
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
-    nav{
-
-        flex-direction: column;
-    }
-
+   header span{
+    font-size: 10px;
+    margin-left: 40px;
+   }
     nav > a{
-        font: 10px sans-serif;
+       display: none;
         
     }
     .homeContent > h2{
@@ -231,22 +230,48 @@ textarea{
 
  font-size: 23px;
     }
+    .homeContent{
+
+        top:30px;
+    }
+    button{
+        font-size: 10px;
+        padding: 5px;
+    }
     .homeContent >p{
         font-size: 15px;
     }
     .homeContent > button{
-        margin-top: 170px;
+        margin-top: -170px;
     }
+    .row{
+
+        width: 300px;
+        height: 100px;
+    }
+    .row>img{
+        width: 50%;
+        height: 100%;
+
+    }
+    
 
     .row2 >img{
-        width: 100%;
+        width: 70%;
+        height: 30%;
       
     }
+    .row2{
+        flex-direction: column;
+    }
+    .content2{
+        width: 80%;
+    }
 
-    .gallery > h2{
+  h2{
         font-size:10px;
     }
-    .gallery >p{
+   p{
         font-size: 7px;
     }
     .card{
@@ -256,5 +281,21 @@ textarea{
     .card > button{
         padding: 0;
     }
+    .ourflex{
+        /* max-width: 1000px; */
+        /* width:200px; */
+        width: 100%;
+    }
+    .imgteam img{
+        width: 100%;
+        height:  400px;
+    }
+    .imgteam{
+        align-items: center;
+    }
+    .footer{
+        width: 70%;
+    }
 
  }
+

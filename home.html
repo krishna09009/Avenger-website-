@@ -108,7 +108,10 @@
 
     <section>
     <h2 class="heading">Our team</h2>
+
     <div class="ourflex">
+      
+
       <div class="imgteam">
         <img src="./img/team-1.png" alt="">
       </div>
@@ -127,8 +130,11 @@
       <div class="imgteam">
         <img src="./img/team-6.png" alt="">
       </div>
-      
+
     </div>
+    <br>
+
+</div>
 
     </section>
 
@@ -221,5 +227,20 @@
         
       </div>
     </footer>
+    <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("imgteam");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}  </script>
   </body>
 </html>
